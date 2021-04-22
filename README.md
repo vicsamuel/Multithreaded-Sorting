@@ -7,10 +7,10 @@
 This project is based on Project 2 of Chapter 4 of the book "Operating Systems - 9th Edition". The aim of the project is to sort an array of integer (size n) using multithreading. The pthreads library and a Linux VM will be used in the development of this project.
 - To set up the software for this project use the following resource [http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html](http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html)
 - VirtualBox, WinSCP, and Ubuntu 18.04.5 were used in this project
-<br></br>
+
 **Goals**
-<p>The following assumptions will be made for the development of this project:</p>
-- Populate the array of integers with random numbers - _Main thread should accomplish this_
+<br>The following assumptions will be made for the development of this project:
+- Populate the array of integers with random numbers (main thread should accomplish this)
 - Use the standard "sort" in UNIX to sort the segment of the array assigned to each thread in the first step or sort function available
 - Develop a merge function that will merge two sorted segments of the array
 - After sorting is complete, the main thread writes the numbers in an increasing order to an output file that is specified in the input arguement
