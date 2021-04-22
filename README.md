@@ -1,7 +1,7 @@
 <h1 align="center">Multithreaded Sorting Algorithm</h1>
 
 <p align="center">
-  <img src=/msort.jpeg>
+  <img src=/msort.PNG>
 </p>
 
 This project is based on Project 2 of Chapter 4 of the book "Operating Systems - 9th Edition". The aim of the project is to sort an array of integer (size n) using multithreading. The pthreads library and a Linux VM will be used in the development of this project.
