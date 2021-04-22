@@ -1,4 +1,4 @@
-<h1 align="center">Multithreaded Sorting Algorithm</h1>
+<h1 align="center">Multithreaded Sorting with Multithreading</h1>
 
 <p align="center">
   <img src=/msort.PNG>
