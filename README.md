@@ -1,4 +1,4 @@
-<h1 align="center">Multithreaded Sorting with Multithreading</h1>
+<h1 align="center">Multithreaded Sorting</h1>
 
 <p align="center">
   <img src=/msort.PNG>
@@ -21,12 +21,12 @@ This project is based on Project 2 of Chapter 4 of the book "Operating Systems -
 - Parameters n, m, and the output filename are all specified from the argument list (e.g. mysort n m out.txt)
 
 **Part 1**
-<br>For this part of the projecte a program with M threads to sort and merge segments of the array in a reverse tree structure, for example: </p>
+<br>For this part of the project a program with M threads was created to sort and merge segments of an array in a reverse tree structure, for example: </p>
 - Level 0: All threads sort their segment of the array (n/m)</br>
 - Level 1: The even threads merge their segment with their odd successor threads (i.e., 0 & 1, 2 & 3)
 - Level 2: Thread 0 merges its segment from the previous step with that of thread 2. _Sorting should be complete at this step_
 
 **Part 2**
-<br>The second leg of this project development of a global synchronization mechanism (called barrier) were developed. When the threads call the barrier, they can not proceed until all threads reach the barrier</br>
+<br>The second leg of this project was the development of a global synchronization mechanism (barrier). When the threads call the barrier, they can not proceed until all threads reach the barrier</br>
 - A barrier function was developed using semaphores
 - This function was used between the levels described above to implement the sorting algorithm. _Pthread library barrier function was not used as our own method was developed using semaphores_
