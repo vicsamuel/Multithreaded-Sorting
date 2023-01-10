@@ -4,7 +4,7 @@
   <img src=/msort.PNG>
 </p>
 
-This project is based on Project 2 of Chapter 4 of the book "Operating Systems - 9th Edition". The aim of the project is to sort an array of integer (size n) using multithreading. The pthreads library and a Linux VM will be used in the development of this project.
+This lab is based on Project 2 of Chapter 4 of the book "Operating Systems - 9th Edition". The aim of the project is to sort an array of integer (size n) using multithreading. The pthreads library and a Linux VM will be used in the development of this project.
 - To set up the software for this project use the following resource [http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html](http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html)
 - VirtualBox [https://www.virtualbox.org/](https://www.virtualbox.org/)
 - WinSCP [https://winscp.net/eng/index.php](https://winscp.net/eng/index.php)
